@@ -17,5 +17,4 @@ Compatible softwares : Gaussian16
 
 - [ ] Read and plot anharmonic spectra 
 - [ ] Make MOLCAS compatible
-- [ ] Improve UI
-
+- [ ] Improve UI
