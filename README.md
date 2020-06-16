@@ -4,7 +4,7 @@
 
 ## Usage
 
-*oscqar.py [option] filename
+*oscqar.py [option] filename*
 
 **-q**, **--quick** : enable quick mode for the various options
 **-e**, **--energy** : retrieve and show the last energy for each calculation in the file, if geometry optimization plot the energies. Quick mode : retrieve and show the last energy in the file
