@@ -3,7 +3,6 @@
 import sys
 import argparse
 import matplotlib.pyplot as plt
-import tkinter as tk
 
 from fileClass import *
 from tools import *
