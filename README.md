@@ -22,7 +22,6 @@ The idea behind OSQCAR is to build a very simple, straightforward and easy to un
 
 ## What's next
 
-- [ ] Add the possibility to normalize spectra
 - [ ] Read and plot anharmonic spectra 
 - [ ] Make MOLCAS compatible
 - [ ] Improve UI
