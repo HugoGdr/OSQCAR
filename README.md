@@ -10,9 +10,11 @@
 
 **-e**, **--energy** : retrieve and show the last energy for each calculation in the file, if geometry optimization plot the energies. Quick mode : retrieve and show the last energy in the file
 
+**-g, --geometry** : retrieve geometries of each calculation and plot in 3D the last one for the calculation asked
+
 **-s**, **--spectrum** : retrieve spectrum (only harmonic ones for now) and plot them after asking FWHM. Quick mode : retrieve and plot with a default FWHM.
 
-**-g, --geometry** : retrieve geometries of each calculation and plot in 3D the last one for the calculation asked
+**-ms**, **--multispectra** : Get the frequencies and intensities and plot spectra from several files
 
 Compatible softwares : Gaussian16
 
