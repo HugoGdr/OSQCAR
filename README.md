@@ -18,7 +18,7 @@ Compatible softwares : Gaussian16
 
 ## Philosophy
 
-The idea behind OSQCAR is to build a very simple, straightforward and easy to understand package to interpret output files from Quantum Chemistry softwares. In particular, it is conceived so it can be easily adapted unique needs.
+The idea behind OSQCAR is to build a very simple, straightforward and easy to understand package to interpret output files from Quantum Chemistry softwares. In particular, it is conceived so it can be easily adapted to unique needs.
 
 ## What's next
 
