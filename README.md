@@ -12,9 +12,9 @@
 
 **-g, --geometry** : retrieve geometries of each calculation and plot in 3D the last one for the calculation asked
 
-**-s**, **--spectrum** : retrieve spectrum (only harmonic ones for now) and plot them after asking FWHM. Quick mode : retrieve and plot with a default FWHM.
+**-s**, **--spectrum** : retrieve spectrum and plot them
 
-**-ms**, **--multispectra** : Get the frequencies and intensities and plot spectra from several files
+**-v**, **--visual** : Open the visual interface
 
 Compatible softwares : Gaussian16
 
@@ -27,6 +27,8 @@ The idea behind OSQCAR is to build a very simple, straightforward and easy to un
 - [x] Read and plot anharmonic spectra 
 
 - [x] Read and plot multiple spectra on the same figure
+
+- [x] Addition of a visual mode
 
 - [ ] Write files to replot at will
 
