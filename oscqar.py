@@ -58,7 +58,7 @@ else:
 
         if args.geometry:
             outputFile.getGeo()
-            if args.quick:
+            if args.quick or len(outputFile.calcTypes.keys()) == 1:
                 pf.plotGeo(outputFile.geos[1])
             else:
                 calcNumb = input('Which calculations ?\n')

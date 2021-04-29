@@ -186,7 +186,11 @@ class File:
                             n + 5:n + 5 + self.numberAtoms]:
                         geo[geoLine.split()[0]] = list()
                         geo[geoLine.split()[0]].append(int(geoLine.split()[1]))
-                        geo[geoLine.split()[0]].append(geoLine.split()[3:6])
+                        strCoord = geoLine.split()[3:6]
+                        floatCoord = list()
+                        for sc in strCoord:
+                            floatCoord.append(float(sc))
+                        geo[geoLine.split()[0]].append(floatCoord)
                     self.geos[i].append(geo)
             # If no standard orientation, take the first input orientation
             if not self.geos[i]:
@@ -199,10 +203,18 @@ class File:
                             geo[geoLine.split()[0]] = list()
                             geo[geoLine.split()[0]].append(
                                 int(geoLine.split()[1]))
-                            geo[geoLine.split()[0]].append(
-                                geoLine.split()[3:6])
+                            strCoord = geoLine.split()[3:6]
+                            floatCoord = list()
+                            for sc in strCoord:
+                                floatCoord.append(float(sc))
+                            geo[geoLine.split()[0]].append(floatCoord)
                         self.geos[i].append(geo)
                         break
+
+        for k in self.geos.keys():
+            if len(self.geos[k]) > 1:
+                if self.geos[k][-1] == self.geos[k][-2]:
+                    del self.geos[k][-1]
 
     def getSpectrum(self):
         """Get the frequencies and intensities"""
