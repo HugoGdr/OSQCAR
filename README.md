@@ -1,10 +1,10 @@
 # Open Software for Quantum Chemistry Advanced Reading
 
-*OSCQAR is a python software that read, process and represent data from quantum chemistry software output files.*
+*OSQCAR is a python software that read, process and represent data from quantum chemistry software output files.*
 
 ## Usage
 
-*oscqar.py [option] filename*
+*osqcar.py [option] filename*
 
 **-q**, **--quick** : enable quick mode for the various options
 
